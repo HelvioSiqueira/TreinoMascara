@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">TreinoMascara</string>
+    <string name="app_name">Formulário</string>
+
+    <string name="txt_nome">Nome</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_celular">Celular</string>
 </resources>
