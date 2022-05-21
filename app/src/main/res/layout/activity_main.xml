@@ -56,7 +56,7 @@
         app:layout_constraintTop_toBottomOf="@+id/layout_inp2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintBottom_toTopOf="@id/botao">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/input_celular"
@@ -69,5 +69,19 @@
             android:layout_marginHorizontal="50dp"/>
 
     </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:id="@+id/botao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_botao"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/layout_inp3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="50dp"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
