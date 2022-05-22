@@ -51,6 +51,7 @@ class MainActivity : AppCompatActivity() {
                     isUpdating = true
                     inputCelular.setText(str)
                     inputCelular.setSelection(inputCelular.text?.length ?: 0)
+
                 } else if (before > count){
                     if(str.length > 7){
                         str = "(${str.substring(0, 2)}) ${str.substring(2, 7)}-${str.substring(7)}"
@@ -65,6 +66,7 @@ class MainActivity : AppCompatActivity() {
                     isUpdating = true
                     inputCelular.setText(str)
                     inputCelular.setSelection(inputCelular.text?.length ?: 0)
+
                 } else {
                     isUpdating = true
                     inputCelular.setText(str)
