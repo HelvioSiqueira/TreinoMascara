@@ -5,5 +5,5 @@
     <string name="txt_email">Email</string>
     <string name="txt_celular">Celular</string>
 
-    <string name="txt_botao">Enviar</string>
+    <string name="txt_botao">Concluir</string>
 </resources>
