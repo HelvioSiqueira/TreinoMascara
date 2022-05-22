@@ -52,16 +52,14 @@ class MainActivity : AppCompatActivity() {
                     inputCelular.setText(str)
                     inputCelular.setSelection(inputCelular.text?.length ?: 0)
                 } else if (before > count){
-                    if(str.length > 8){
+                    if(str.length > 7){
                         str = "(${str.substring(0, 2)}) ${str.substring(2, 7)}-${str.substring(7)}"
-                    } else if(str.length < 7){
-                        str = "(${str.substring(0, 2)}) ${str.substring(0, 6)}"
-                    }  else if(str.length < 3){
-                        str = "(${str.substring(0, 2)}) "
-                    } else if(str.length < 2){
-                        str = "(${str.substring(0, 2)})"
-                    } else if(str.length < 1){
-                        str = "(${str.substring(0, 0)})"
+                    } else if(str.length in 3..7){
+                        str = "(${str.substring(0, 2)}) ${str.substring(2, str.length)}"
+                    } else if(str.length in 1..2){
+                        str = "(${str.substring(0, str.length)}"
+                    } else if(str.length <= 1){
+                        str = ""
                     }
 
                     isUpdating = true
