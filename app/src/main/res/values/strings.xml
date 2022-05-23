@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Formulário</string>
+    <string name="app_name">Cadastro</string>
 
     <string name="txt_nome">Nome</string>
     <string name="txt_email">Email</string>
