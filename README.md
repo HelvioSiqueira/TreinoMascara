@@ -1,5 +1,7 @@
 # Máscara no TextInput
 
+![](images/print1.png) ![](images/print2.png) ![](images/print3.png) 
+
 O app exemplifica a aplicação de uma máscara no *TextInput* de um celular. Uso a função ```onTextChanged(CharSequence s, int start, int before, int count)```
 presente no view do tipo *TextInput*. Quando apliquei a máscara foi preciso aplica-la indo(digitando)que usei como base o exemplo dado no livro Dominando o Android
 com Kotlin do Nelson Glauber:
